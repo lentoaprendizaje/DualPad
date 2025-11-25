@@ -1,4 +1,4 @@
-﻿;@Ahk2Exe-SetMainIcon icon\icon.ico
+﻿;@Ahk2Exe-SetMainIcon icon\teclado-numerico.ico
 #NoEnv
 #SingleInstance force
 SetBatchLines, -1
