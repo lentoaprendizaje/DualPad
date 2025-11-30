@@ -25,8 +25,8 @@ txt := GetKeyState("NumLock", "T") ? "NumPad" : "Atajos"
     if (!BannerExists) {
         Gui, Banner:+AlwaysOnTop -Caption +ToolWindow +LastFound
         Gui, Banner:Color, 000000
-        Gui, Banner:Font, s16 cFFFFFF, Monocraft
-        Gui, Banner:Add, Text, +Center vLabelText, %txt%
+        Gui, Banner:Font, s16 cFFFFFF
+        Gui, Banner:Add, Text, w80 +Center vLabelText, %txt%
         WinSet, Transparent, 200
         BannerExists := true
     } else {
